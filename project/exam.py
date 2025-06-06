@@ -25,3 +25,5 @@ def password_cracking():
             print(first, second)
 
     print("Aucune combinaison trouvée")
+
+password_cracking()
