@@ -1,0 +1,30 @@
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/Week1_Python/poo_exercises_day1_cats.ipynb
+suggestions for improvement:
+- The variable names could be more descriptive (e.g., `oldest_cat` instead of `oldest`).
+- Add docstrings to the `find_oldest_cat` function to explain its purpose, parameters, and return value.
+- Consider using more descriptive variable names throughout the code. For instance, `cats` in `find_oldest_cat` could be `cat_list`.
+Correctness: 100%
+-----
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/Week1_Python/poo_exercises_day1_dog.ipynb
+suggestions for improvement:
+- The `bark()` method should print "<dog_name> goes woof!" instead of "<dog_name> aboie : WAF!!".  The instructions specify English output.
+- The `jump()` method's output should follow the exact format: "<dog_name> jumps <x> cm high!". The current output is slightly different.
+- Add a `compare_size()` method to the `Dog` class to make the size comparison more structured and reusable, instead of doing it directly in the main part of the code. This aligns better with the object-oriented programming principles emphasized in the chapter.
+- The step 4 is not implemented: 'Compare Dog Sizes'  should contain some comparison logic and print a meaningful statement indicating which dog is bigger.
+Correctness: 85%
+-----
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/Week1_Python/poo_exercises_day1_song.ipynb
+suggestions for improvement:
+- Add type hints to the `__init__` method's `lyrics` parameter for better clarity and maintainability.  The current type hint is good, but could be made more explicit by using `List[str]` instead of `list[str]` to improve readability across different Python versions.
+- Consider adding docstrings to the methods to explain their purpose and parameters.  This improves code understanding and maintainability. For example, a docstring in `sing_me_a_song` could clearly state it prints each lyric on a newline.
+- The variable name `immigrant` for the Song object isn't very descriptive; a name like `song1` or a name reflecting the song's title would improve readability.
+Correctness: 100%
+-----
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/Week1_Python/poo_exercises_day1_zoo.ipynb
+suggestions for improvement:
+- The `sort_animals` method could be improved by using the `itertools.groupby` function for more efficient grouping.  The current implementation iterates through the sorted list multiple times which is less efficient.
+- Add more comprehensive error handling. For instance, what happens if `sell_animal` is called with an animal not in the zoo?  A more robust solution would raise an exception or provide a more informative message.
+- The `add_animal` and `sell_animal` methods clear the `groups` dictionary. This is inefficient as it recalculates groups every time.  The groups should be recalculated only when needed (e.g., in `get_groups`).
+- Consider adding docstrings to methods for better readability and understandability.
+Correctness: 95%
+-----
