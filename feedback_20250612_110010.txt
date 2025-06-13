@@ -1,0 +1,20 @@
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/Week1_Python/OOP+Inheritance%2C+Encapsulation%2C+Polymorphism+and+Multiple+Inheritance/dog.py
+suggestions for improvement:
+- Failed to download file - Status: 404
+Correctness: N/A%
+-----
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/Week1_Python/OOP+Inheritance%2C+Encapsulation%2C+Polymorphism+and+Multiple+Inheritance/domesticated.ipynb
+suggestions for improvement:
+- Failed to download file - Status: 404
+Correctness: N/A%
+-----
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/Week1_Python/OOP+Inheritance%2C+Encapsulation%2C+Polymorphism+and+Multiple+Inheritance/family.ipynb
+suggestions for improvement:
+- Failed to download file - Status: 404
+Correctness: N/A%
+-----
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/Week1_Python/OOP+Inheritance%2C+Encapsulation%2C+Polymorphism+and+Multiple+Inheritance/pet.ipynb
+suggestions for improvement:
+- Failed to download file - Status: 404
+Correctness: N/A%
+-----
