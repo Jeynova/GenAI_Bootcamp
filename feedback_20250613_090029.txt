@@ -1,0 +1,31 @@
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/week1/day4/ExerciceXP/pet.ipynb
+suggestions for improvement:
+- The code is well-structured and easy to follow.  Consider adding docstrings to the classes and methods for enhanced readability and understanding.
+- In the `Siamese` class, the `eye_color` attribute could be made optional using a default value or a conditional check during object creation. This would allow for greater flexibility when instantiating `Siamese` objects. 
+- Add more comprehensive test cases to verify that all functionalities are working as expected and handle edge cases.
+Correctness: 100%
+-----
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/week1/day4/ExerciceXP/dog.py
+suggestions for improvement:
+- Add docstrings to the methods for better readability and understanding.
+- Consider adding input validation to the `fight` method to handle cases where `other` is not a `Dog` object.
+- The `fight` method could be improved by adding a more sophisticated fight logic instead of just comparing `run_speed * weight`.
+Correctness: 100%
+-----
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/week1/day4/ExerciceXP/domesticated.ipynb
+suggestions for improvement:
+- The `play` method in the provided solution should print '<dog_names> all play together', but the current implementation prints a comma-separated list of names followed by 'all play together!'.  Adjust the string formatting to match the instructions.
+- The example in the instructions for `do_a_trick` lacks a check for whether the dog is trained. Add this check to prevent errors when calling `do_a_trick()` on an untrained dog.  The implemented code includes this check, making it better than the example provided. 
+- Add type hinting to the `Dog` class and its methods to improve code clarity and readability.  The implemented solution already uses type hints for PetDog.  The `Dog` class should be updated.
+- The exercise description mentions importing the `Dog` class from the previous exercise. The solution assumes a file 'dog.py' exists. This should be clarified or handled differently (e.g., show an example of the Dog class definition). The notebook did include that file.
+- Add more robust error handling (beyond the TypeError in `play`) to make the code more resilient to unexpected inputs.
+Correctness: 90%
+-----
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/week1/day4/ExerciceXP/family.ipynb
+suggestions for improvement:
+- The `Person` class could benefit from using f-strings in its `__str__` method for better readability.
+- Add input validation to prevent issues from negative ages or empty names in the `Family.born` method.  This is already done very well, but explicit documentation within docstrings would enhance readability.
+- Consider using more descriptive variable names (e.g., instead of `fam`, perhaps `lambda_family`).
+- For larger families, the linear search in `check_majority` could become inefficient.  Consider using a dictionary to map first names to `Person` objects for faster lookups.
+Correctness: 100%
+-----
