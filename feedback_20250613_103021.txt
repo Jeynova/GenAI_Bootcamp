@@ -1,0 +1,17 @@
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/week1/day5/ExerciceXP/game.py
+suggestions for improvement:
+- The `game.py` file should only contain the `Game` class.  The main game loop and menu handling should be in `rock-paper-scissors.py`.  The `play` method in `Game` should only play a single round, not a whole match.
+- The `play` method in the `Game` class currently plays a best-of-n game. The instructions specify that a single game should be played each time the user chooses to play, with results summarised at the end.
+- The `rock-paper-scissors.py` file is missing, as are the functions it should contain (`get_user_menu_choice`, `print_results`, `main`).
+- Error handling could be improved; for example, the `get_user_menu_choice` function (which is missing) should handle invalid user input gracefully.  
+- Add comprehensive docstrings to all functions and the class to improve readability and understanding.
+Correctness: 80%
+-----
+URL: URL: https://github.com/Jeynova/GenAI_Bootcamp/blob/master/week1/day5/ExerciceXP/rock-paper-scissors.py
+suggestions for improvement:
+- The `get_game_mode` function introduces functionality not specified in the chapter instructions.  The chapter only requires a single game of rock-paper-scissors per round, not a best-of-n series.
+- The `main` function's handling of menu choices is good, but the 'Show scores' option (choice 2) and exit choice (3) both call `print_results`, which is slightly redundant. It could be improved by only calling `print_results` once upon exiting.
+- The code uses French in the menu and output. While not inherently wrong, the instructions are in English.  For better consistency, switching to English would be beneficial.
+- Error handling for invalid user input in `get_user_menu_choice` is adequate, but it could be more user-friendly (e.g., providing more specific guidance on correct input).
+Correctness: 70%
+-----
