@@ -1,0 +1,6 @@
+echo "*.zip" >> .gitignore
+echo "*.h5" >> .gitignore
+echo "*.csv" >> .gitignore
+echo "*.png" >> .gitignore
+echo "__pycache__/" >> .gitignore
+git rm --cached -r .
