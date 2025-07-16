@@ -1,6 +1,6 @@
 import nltk
 nltk.download('punkt')  # à exécuter une seule fois
-rom generation import TextGenerator
+from generation import TextGenerator
 from summarization import TextSummarizer
 from similarity import SimilarityChecker
 from data_loader import load_sample_imdb_dataset
@@ -44,20 +44,20 @@ def evaluate_pipeline(nb_exemples=10):
     print(f"Similarité moyenne : {np.mean(similarity_scores):.4f}")
 
     def evaluate_adversarial(path="adversarial_prompts.txt"):
-    with open(path, "r", encoding="utf-8") as f:
-        prompts = [line.strip() for line in f if line.strip()]
+        with open(path, "r", encoding="utf-8") as f:
+            prompts = [line.strip() for line in f if line.strip()]
 
-    generator = TextGenerator(max_length=80)
-    summarizer = TextSummarizer()
-    checker = SimilarityChecker()
+        generator = TextGenerator(max_length=80)
+        summarizer = TextSummarizer()
+        checker = SimilarityChecker()
 
-    print(f"\n=== TEST PROMPTS ADVERSARIAUX ({len(prompts)} prompts) ===")
-    for i, prompt in enumerate(prompts):
-        generated = generator.generate(prompt)
-        summary = summarizer.summarize(generated)
-        score = checker.compare(prompt, summary)
+        print(f"\n=== TEST PROMPTS ADVERSARIAUX ({len(prompts)} prompts) ===")
+        for i, prompt in enumerate(prompts):
+            generated = generator.generate(prompt)
+            summary = summarizer.summarize(generated)
+            score = checker.compare(prompt, summary)
 
-        print(f"\nPrompt {i+1} : {prompt}")
-        print("Généré       :", generated)
-        print("Résumé       :", summary)
-        print(f"Similarité   : {score * 100:.2f}%")
+            print(f"\nPrompt {i+1} : {prompt}")
+            print("Généré       :", generated)
+            print("Résumé       :", summary)
+            print(f"Similarité   : {score * 100:.2f}%")
