@@ -12,3 +12,4 @@ week6/day2/DailyChallenge/gpt2-sms-spam/
 week6/day2/DailyChallenge/checkpoint-3000/
 *.env
 bert_fold_1/
+household_power_consumption.txt
