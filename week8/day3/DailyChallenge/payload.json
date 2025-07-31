@@ -1,0 +1,13 @@
+{
+  "id": "test-001",
+  "method": "call_tool",
+  "params": {
+    "tool_use_id": "call123",
+    "name": "triage_call",
+    "arguments": {
+      "transcript": "mild headache, nausea",
+      "caller_info": {"name": "Martin", "contact": "+33987654321"},
+      "location": {"address": "20 av. de l’Opéra, Paris"}
+    }
+  }
+}
