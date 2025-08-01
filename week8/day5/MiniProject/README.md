@@ -21,8 +21,4 @@ Ce dépôt contient le rapport de méta-analyse comparative de trois articles r�
 
 ## 📬 Contact
 
-Pour toute question ou suggestion, merci de contacter l’auteur du dépôt.
-
----
-
-Tu peux bien sûr adapter les intitulés ou ajouter un mot sur l’objectif du projet si besoin.
+Jeynova
